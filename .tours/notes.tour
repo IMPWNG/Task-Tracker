@@ -1,12 +1,6 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
   "title": "Notes",
-  "steps": [
-    {
-      "file": "src/App.js",
-      "description": "Test note on vscode",
-      "line": 1
-    }
-  ],
+  "steps": [],
   "ref": "f80d01ae4a644d3f2ad87fcc08a7ffece4a5c283"
 }
