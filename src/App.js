@@ -83,7 +83,7 @@ const toggleReminder = async (id) => {
   setTasks(tasks.map((task) => task.id === id ? {...task, reminder: data.reminder } : task ))
 }
 
-  return(
+  return (
     <BrowserRouter>
       <Routes>
             <div className='container'>
