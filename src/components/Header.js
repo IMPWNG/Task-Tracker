@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types'
-import Button from './Button'
+import PropTypes from 'prop-types';
+import Button from './Button';
 const Header = ({ title , onAdd, showAdd}) => {
 
     return (
