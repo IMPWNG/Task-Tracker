@@ -1,11 +1,10 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Tasks from './components/Tasks';
 import AddTask from './components/AddTask';
 import About from './components/About';
-
 const App = () => {
     const [showAddTask, setShowAddTask] = useState(true)
     const [tasks, setTasks] = useState([])
@@ -17,8 +16,6 @@ const App = () => {
       }
         getTasks()
     }, [])
-
-
     // Fetch Tasks
     const fetchTasks = async () => {
       const res = await fetch('http://localhost:5000/tasks')
@@ -69,14 +66,11 @@ const App = () => {
 
       setTasks(tasks.map((task) => task.id === id ? {...task, reminder: data.reminder } : task ))
     }
-
   return (
-    <BrowserRouter>
       <div className='container'>
         <Header onAdd={() => setShowAddTask(!showAddTask)} showAdd={showAddTask} />
-      </div>
       <Routes>
-        <Route path='/' element={<>
+        <Route path="/" element={<>
           {showAddTask && <AddTask onAdd={addTask} />}
           {tasks.length > 0 ? (
             <Tasks
@@ -88,18 +82,12 @@ const App = () => {
             'No Tasks To Show'
           )}
         </>}>
-
-        </Route>
-        
+          </Route> 
+          <Route path="/About" element={<About />} />
       </Routes>
-
-    
-    
-    </BrowserRouter>
-
-
+        <Footer />
+      </div>
   );
-} 
-
+}
 export default App
 
