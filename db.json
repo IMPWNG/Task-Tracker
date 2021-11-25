@@ -1,34 +1,10 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Doctors Appointment",
-      "day": "Feb 5th at 2: 30pm",
-      "reminder": true
-    },
-    {
-      "id": 2,
-      "text": "Dental Appointment",
-      "day": "feb 5th at 2: 30pm",
-      "reminder": true
-    },
-    {
-      "text": "Test Task",
-      "day": "Friday",
+      "text": "Finish - Task Tracker",
+      "day": "Friday 26/11",
       "reminder": true,
-      "id": 3
-    },
-    {
-      "text": "Test 3",
-      "day": "Jeudi Vendredi",
-      "reminder": true,
-      "id": 4
-    },
-    {
-      "text": "test reminder",
-      "day": "Lundi",
-      "reminder": true,
-      "id": 5
+      "id": 1
     }
   ]
 }
