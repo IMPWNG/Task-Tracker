@@ -3,6 +3,8 @@
 
 ![Task Tracker using ReactApp](https://i.ibb.co/5jWRRXV/Screenshot-2021-11-28-at-17-27-53.png/)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/89b1c2a2-6614-42dd-97d5-27cb3b5ffd08/deploy-status)](https://app.netlify.com/sites/impwng-taskttracker.netlify.app/deploys)
+
 Following a tutorial : 
 
 - React Functional components and their reusability
