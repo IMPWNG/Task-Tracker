@@ -1,7 +1,7 @@
 # Task Tracker App
 ### [Live Site](https://impwng-taskttracker.netlify.app/)
 
-![Task Tracker using ReactApp](https://ibb.co/4SZVVwx/image.png)
+![Task Tracker using ReactApp](https://ibb.co/4SZVVwx/)
 
 Following a tutorial : 
 
