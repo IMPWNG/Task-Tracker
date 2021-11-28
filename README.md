@@ -1,4 +1,17 @@
 # Task Tracker App
+### [Live Site](https://impwng-taskttracker.netlify.app/)
+
+![Task Tracker using ReactApp](https://ibb.co/4SZVVwx/image.png)
+
+Following a tutorial : 
+
+- React Functional components and their reusability
+- React file and folder structure
+- Fundamental CSS properties 
+- Fundamentals of the Routes v6
+- Using libraries for styling
+- json server
+
 
 ## 23/11
 
